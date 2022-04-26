@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="300dp"
+        android:layout_height="273dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="398dp"
+        android:src="@drawable/hello"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="Hello Dear!"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splash_image" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="329dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="251dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="Create an amazing experience through the application reserva to book your table in the restaurant you want and not only that, you can also book your meal with simple touches through your phone."
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splash_image" />
+
+    <Button
+        android:id="@+id/splash_signup"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="33dp"
+        android:text="Signup"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/splash_signin"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/grey"
+        android:text="Signin"
+        android:textAllCaps="false"
+        android:textColor="#E6E6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

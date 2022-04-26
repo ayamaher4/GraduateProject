@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/signin_image"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="95dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/log_in" />
+
+
+    <TextView
+        android:id="@+id/signin_titile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="274dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Sign In"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin_image"></TextView>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/grey"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Email"
+        android:textAllCaps="false"
+        android:textColor="#A1A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin_titile" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/grey"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Password"
+        android:textAllCaps="false"
+        android:textColor="#A1A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/green"
+        android:text="Signin"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dont_have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="Dont you have an account?"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/Sign_up_click"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup" />
+
+    <TextView
+        android:id="@+id/Sign_up_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="127dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="signup"
+        android:textColor="#00512D"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dont_have_account"
+        app:layout_constraintTop_toBottomOf="@+id/signup" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

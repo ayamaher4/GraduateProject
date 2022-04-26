@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GraduateProject/app/src/main/res/drawable/custom_button.xml" value="0.2203125" />
+        <entry key="..\:/GraduateProject/app/src/main/res/drawable/green.xml" value="0.14907407407407408" />
+        <entry key="..\:/GraduateProject/app/src/main/res/drawable/greenn.xml" value="0.14907407407407408" />
+        <entry key="..\:/GraduateProject/app/src/main/res/drawable/grey.xml" value="0.14907407407407408" />
+        <entry key="..\:/GraduateProject/app/src/main/res/drawable/ic_iconly_bold_profile.xml" value="0.11666666666666667" />
+        <entry key="..\:/GraduateProject/app/src/main/res/drawable/ic_logotr2.xml" value="0.10277777777777777" />
+        <entry key="..\:/GraduateProject/app/src/main/res/drawable/signin_button.xml" value="0.2203125" />
+        <entry key="..\:/GraduateProject/app/src/main/res/font/.xml" value="0.1" />
+        <entry key="..\:/GraduateProject/app/src/main/res/font/montserrat_semibold.xml" value="0.1" />
+        <entry key="..\:/GraduateProject/app/src/main/res/font/montserrat_thin.xml" value="0.1425925925925926" />
+        <entry key="..\:/GraduateProject/app/src/main/res/layout/activity_logo.xml" value="0.18" />
+        <entry key="..\:/GraduateProject/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/GraduateProject/app/src/main/res/layout/activity_sign_in.xml" value="0.24" />
+        <entry key="..\:/GraduateProject/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/GraduateProject/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
